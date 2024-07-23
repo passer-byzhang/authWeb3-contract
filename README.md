@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# AuthWeb3 Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+This is a contract implement that allows a certain level of centralized architecture.
+In this case, develop team hold a account that store in their servers and every single transaction in this project requests the signature of the account. Developers can prevent a large number of malicious transactions using this method such as anti-SybilAttack.
 
 ```shell
-npx hardhat help
+npm i
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+forge test
 ```
+
+
